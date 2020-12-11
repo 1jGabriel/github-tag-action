@@ -1,7 +1,7 @@
 FROM alpine
-LABEL "repository"="https://github.com/ChloePlanet/github-tag-action"
-LABEL "homepage"="https://github.com/ChloePlanet/github-tag-action"
-LABEL "maintainer"="Chloe Zhang"
+LABEL "repository"="https://github.com/1jGabriel/github-tag-action"
+LABEL "homepage"="https://github.com/1jGabriel/github-tag-action"
+LABEL "maintainer"="Androider"
 
 COPY ./contrib/semver ./contrib/semver
 RUN install ./contrib/semver /usr/local/bin
