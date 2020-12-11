@@ -16,7 +16,7 @@ jobs:
           fetch-depth: '0'
 
       - name: Bump version and push tag
-        uses: ChloePlanet/github-tag-action@master
+        uses: 1jGabriel/github-tag-action@master
         env:
           # Use ${{ secrets.GITHUB_TOKEN }} by default.
           # Use GitHub Personal Access Token ${{ secrets.REPO_ACCESS_TOKEN }} if you
